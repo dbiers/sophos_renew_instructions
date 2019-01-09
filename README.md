@@ -94,3 +94,5 @@ The above script will prompt you for:
 * Email Address / Contact
 
 Once complete this will register the machines IP address, MAC Address, license key, contact address, and so forth.
+
+**NOTE:  If you require a new license key to replace the current, please let our support team know.**
