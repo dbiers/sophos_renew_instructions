@@ -2,10 +2,10 @@
 
 ## Index
 
-1. About
-2. Requirements
-   * Reset Root Password
-   * Access root using Remote Console (DCD)
+1. [About](#about)
+2. [Requirements](#requirements)
+   * [Reset Root Password](#reset-root-password)
+   * [Access root using Remote Console (DCD)](#access-root-using-remote-console-dcd)
    * Access root using SSH Keys (SSH)
    * Switching to `root` from `loginuser`
 3. Renewing the License
