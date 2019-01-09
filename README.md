@@ -5,8 +5,8 @@
 1. [About](#about)
 2. [Requirements](#requirements)
    * [Reset Root Password](#reset-root-password)
-   * [Access root using Remote Console (DCD)](#access-root-using-remote-console-dcd)
-   * Access root using SSH Keys (SSH)
+   * [Access root using Remote Console (DCD)](#access-root-using-remote-console)
+   * [Access root using SSH Keys (SSH)](#access-root-using-ssh)
    * Switching to `root` from `loginuser`
 3. Renewing the License
 4. Installing New or Replacement License
@@ -30,7 +30,7 @@ You will need to have a way to access the `root` user account on the machine. Th
 
 ![Screenshot of Resetting Passwords](https://pax8.pro/4010a0bd87e5-Indianred_Spider.png)
 
-### Access `root` using Remote Console
+### Access root using Remote Console
 
 * Login to ProfitBricks DCD (https://my.profitbricks.com/)
 * Open the virtual datacenter your Sophos UTM resides in
@@ -40,7 +40,7 @@ You will need to have a way to access the `root` user account on the machine. Th
 
 ![Screenshot of Remote Console Button](https://pax8.pro/eae50a24eb96-Barren_Mara.png)
 
-### Access `root` over SSH
+### Access root using SSH
 
 * Ensure your SSH key is added to Sophos
   * Under **Management > System Settings > Shell Access [Authentication]**
