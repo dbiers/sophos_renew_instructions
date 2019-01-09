@@ -7,9 +7,9 @@
    * [Reset Root Password](#reset-root-password)
    * [Access root using Remote Console (DCD)](#access-root-using-remote-console)
    * [Access root using SSH Keys (SSH)](#access-root-using-ssh)
-   * Switching to `root` from `loginuser`
-3. Renewing the License
-4. Installing New or Replacement License
+   * [Switching to `root` from `loginuser`](#switching-to-root-from-loginuser)
+3. [Renewing the License](#renewing-the-license)
+4. [Installing New or Replacement License](#installing-new-or-replacement-license)
 
 ## About
 
@@ -51,7 +51,7 @@ You will need to have a way to access the `root` user account on the machine. Th
 
 ![Screenshot of SSH Keys](https://pax8.pro/9222b1740b27-Dimwitted_Elk.png)
 
-### Switching to `root` from `loginuser`
+### Switching to root from loginuser
 
 * Ensure you know the root password.
   * If not, reset the `root` password using the instructions above.
