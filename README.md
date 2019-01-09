@@ -104,4 +104,4 @@ Once complete this will register the machines IP address, MAC Address, license k
 * Access **Management > Licensing**
 * Ensure that the expiration date for the module shows **Dec 1, 2019**
 
-![Screenshot of Updated License](https://pax8.pro/bc470d9a1727-Blank_Groundbeetle.png)
+![Screenshot of Updated License](https://pax8.pro/6530ae460309-Jubilant_Dormouse.png)
