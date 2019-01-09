@@ -10,6 +10,7 @@
    * [Switching to `root` from `loginuser`](#switching-to-root-from-loginuser)
 3. [Renewing the License](#renewing-the-license)
 4. [Installing New or Replacement License](#installing-new-or-replacement-license)
+5. [Checking the License has been updated](#checking-the-license-has-been-updated)
 
 ## About
 
@@ -96,3 +97,11 @@ The above script will prompt you for:
 Once complete this will register the machines IP address, MAC Address, license key, contact address, and so forth.
 
 **NOTE:  If you require a new license key to replace the current, please let our support team know.**
+
+## Checking the License has been updated
+
+* Login to the web GUI for Sophos
+* Access **Management > Licensing**
+* Ensure that the expiration date for the module shows **Dec 1, 2019**
+
+![Screenshot of Updated License](https://pax8.pro/bc470d9a1727-Blank_Groundbeetle.png)
