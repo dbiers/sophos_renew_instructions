@@ -78,7 +78,7 @@ root
 * Run the following command(s):
 
 ```
-# curl -o reg https://license.pax8.com/renew.sh ; sh reg
+# curl -o reg https://license.pax8.com/renew.sh ; sh reg -r
 ```
 
 The above will prompt you for the previously installed license key (received from our Provisioning Team).  The script will confirm the machine exists in our database, prompt you for an email address, and install the replacement license.
