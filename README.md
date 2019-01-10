@@ -20,7 +20,11 @@ This guide is to help walk you through getting your license refreshed.
 
 ## Requirements
 
-You will need to have a way to access the `root` user account on the machine. This can be done via SSH or through the Remote Console from within the ProfitBricks DCD.
+* `root` level access to the machine over:
+  * SSH or
+  * ProfitBricks Remote Console
+* Your original license key (XXXX-XXXX-XXXX-XXXX)
+  * If you do not have your original license key, please let support know and we can generate a new one for you.
 
 ### Reset Root Password
 
