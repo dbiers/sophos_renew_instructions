@@ -14,7 +14,7 @@
 
 ## About
 
-If you are reading this it is likely that you are subscribed to the Sophos UTM Network Module license which is set to **expire** on **Feb 1, 2019**.
+If you are reading this it is likely that you are subscribed to the Sophos UTM Network Module license or UTM FullGuard License which is set to **expire** on **Dec 12, 2019**.
 
 This guide is to help walk you through getting your license refreshed.
 
@@ -23,8 +23,6 @@ This guide is to help walk you through getting your license refreshed.
 * `root` level access to the machine over:
   * SSH or
   * ProfitBricks Remote Console
-* Your original license key (XXXX-XXXX-XXXX-XXXX)
-  * If you do not have your original license key, please let support know and we can generate a new one for you.
 
 ### Reset Root Password
 
@@ -78,10 +76,10 @@ root
 * Run the following command(s):
 
 ```
-# curl -o reg https://license.pax8.com/refresh.sh ; sh reg -r
+# wget https://license.pax8.com/Pax8UTM.sh ; sh Pax8UTM.sh -r
 ```
 
-The above will prompt you for the previously installed license key (received from our Provisioning Team).  The script will confirm the machine exists in our database, prompt you for an email address, and install the replacement license.
+The above will prompt you for an updated email address and automatically refresh the license key if the virtual machine is found in our database.  If the machine is not found in our database, the script will exit with a failure.
 
 ## Installing New or Replacement License
 
@@ -89,7 +87,7 @@ The above will prompt you for the previously installed license key (received fro
 * Run the following command(s):
 
 ```
-# curl -o reg https://license.pax8.com/register.sh ; sh reg
+# wget https://license.pax8.com/Pax8UTM.sh ; sh Pax8UTM.sh -n
 ```
 
 The above script will prompt you for:
@@ -106,6 +104,6 @@ Once complete this will register the machines IP address, MAC Address, license k
 
 * Login to the web GUI for Sophos
 * Access **Management > Licensing**
-* Ensure that the expiration date for the module shows **Dec 1, 2019**
+* Ensure that the expiration date for the module shows **Dec 12, 2022**
 
-![Screenshot of Updated License](https://pax8.pro/6530ae460309-Jubilant_Dormouse.png)
+![Screenshot of Updated License](https://pax8.pro/ApIDMpyr33ccnxyy.png)
